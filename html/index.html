@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>음료 자판기</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/reset.css" />
-</head>
-<body>
-    HTML
-</body>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/vending-machine.css" />
+  </head>
+  <body>
+    <main>
+      <article class="vending-machine-wrapper">
+        <ul class="beverage-list">
+          <li class="beverage-list-item">
+            <div class="beverage-image-wrapper">
+              <img src="/img/no-image.png" alt="no image" />
+            </div>
+            <strong class="beverage-desc-wrapper">700원</strong>
+            <div class="beverage-btn-wrapper">
+              <button>뽑기</button>
+            </div>
+          </li>
+        </ul>
+        <div class="output-beverage-wrapper">음료 나오는 곳</div>
+      </article>
+      <article class="money-relative-wrapper">
+        <div class="input-money-wrapper">돈 넣는 곳</div>
+        <div class="money-item-wrapper">돈 모음 집</div>
+      </article>
+    </main>
+  </body>
 </html>

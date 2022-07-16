@@ -1,0 +1,50 @@
+@media (min-width: 1024px) {
+  .vending-machine-wrapper {
+    width: 80%;
+  }
+  .beverage-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .beverage-list .beverage-list-item {
+    width: 160px;
+    height: 240px;
+    padding: 20px;
+    border: 1px solid #dce0e8;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  .beverage-list .beverage-list-item .beverage-image-wrapper {
+    width: 100%;
+    height: 75%;
+  }
+  .beverage-list .beverage-list-item .beverage-image-wrapper img {
+    width: 100%;
+    height: 100%;
+  }
+  .beverage-list .beverage-list-item .beverage-desc-wrapper {
+    width: 100%;
+    height: 10%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .beverage-list .beverage-list-item .beverage-btn-wrapper {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .output-beverage-wrapper {
+    width: 100%;
+  }
+}
+@media (min-width: 335px) and (max-width: 757px) {
+  .vending-machine-wrapper {
+    background-color: red;
+  }
+}
