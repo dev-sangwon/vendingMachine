@@ -1,0 +1,66 @@
+@media (min-width: 1024px) {
+  .money-relative-wrapper {
+    width: 20%;
+    padding: 10px;
+  }
+  .money-relative-wrapper .input-money-wrapper {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .money-relative-wrapper .input-money-wrapper .token-money-input-area {
+    width: 100%;
+    height: 50%;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .money-relative-wrapper .input-money-wrapper .token-money-input-area .circle-area {
+    width: 50%;
+    height: 80%;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .money-relative-wrapper .input-money-wrapper .token-money-input-area .circle-area .rectangle-area {
+    width: 10px;
+    height: 90%;
+    background-color: #fff;
+  }
+  .money-relative-wrapper .input-money-wrapper .paper-money-input-area {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .money-relative-wrapper .input-money-wrapper .paper-money-input-area p {
+    color: white;
+  }
+  .money-relative-wrapper .input-money-wrapper .paper-money-input-area p span {
+    color: red;
+  }
+  .money-relative-wrapper .input-money-wrapper .paper-money-input-area p.no-money {
+    color: red;
+  }
+  .money-relative-wrapper .money-item-wrapper {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .money-relative-wrapper .money-item-wrapper img {
+    width: 50%;
+    height: 50%;
+  }
+}

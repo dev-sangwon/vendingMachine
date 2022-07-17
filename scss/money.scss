@@ -1,0 +1,69 @@
+@import "./mixin";
+
+@include pc {
+  .money-relative-wrapper {
+    width: 20%;
+    padding: 10px;
+
+    .input-money-wrapper {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .token-money-input-area {
+        width: 100%;
+        height: 50%;
+        background-color: silver;
+        @include flexCenter;
+        .circle-area {
+          width: 50%;
+          height: 80%;
+          background-color: gray;
+          border-radius: 50%;
+          @include flexCenter;
+          .rectangle-area {
+            width: 10px;
+            height: 90%;
+            background-color: #fff;
+          }
+        }
+      }
+
+      .paper-money-input-area {
+        width: 100%;
+        height: 50%;
+        background-color: black;
+        font-weight: 600;
+        font-size: 20px;
+        @include flexCenter;
+        flex-direction: column;
+        gap: 20px;
+
+        p {
+          color: white;
+          span {
+            color: red;
+          }
+
+          &.no-money {
+            color: red;
+          }
+        }
+      }
+    }
+
+    .money-item-wrapper {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-wrap: wrap;
+
+      img {
+        width: 50%;
+        height: 50%;
+      }
+    }
+  }
+}
